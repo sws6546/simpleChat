@@ -1,7 +1,7 @@
-import Header from "./components/Header"
-import SetUsernameForm from "./components/SetUsernameForm"
-import Form from "./components/Form"
-import MessagesContainer from "./components/MessagesContainer"
+import Header from "./components/header"
+import SetUsernameForm from "./components/set_username_form"
+import Form from "./components/form"
+import MessagesContainer from "./components/messages_container"
 import { useEffect, useState } from "react"
 import { socket } from "./socket"
 
