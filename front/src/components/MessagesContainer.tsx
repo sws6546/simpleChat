@@ -5,7 +5,7 @@ type message = {
 
 export default function MessagesContainer({msgList}: {msgList: message[]}) {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid border m-4 bg-light">
       <div className="col p-4">
         {
           msgList.map((msg, idx) => (
